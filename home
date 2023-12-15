@@ -1,0 +1,11 @@
+<!--home section start-->
+    <section id="home">
+      <div class="content">
+        <h3>Start Your Day With a <br> Fresh Coffee</h3>
+        <p> Fresh coffee offers a delightful sensory experience, from the rich aroma awakening your senses to the gentle caffeine boost enhancing alertness. 
+          <br> The immediate sensory pleasures and potential health benefits.
+        </p>
+        <button id="btn">Shop now</button>
+      </div>
+    </section>
+    <!--home section end-->
