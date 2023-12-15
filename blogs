@@ -1,0 +1,53 @@
+   <!-- blogs start-->
+    <section id="blog">
+      <div class="heading7">Latest <span>Blogs</span></div>
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="images/b1.webp" alt="">
+              <div class="card-body">
+                <h3>Lorem, ipsum dolor</h3>
+                <h5>Admin / as of 2022</h5>
+                <p> We assume you are reading this article because you have a love of coffee. Then, this is one of the top coffee blogs for you to follow. Coffee Affection’s resources are complete with buying guides for both coffee grinding and brewing instruments, comparisons of brewing techniques and much more. Not sure what bean is best suited to your pallet? These guys will point you in the right direction. They also give their honest reviews on equipment. </p>
+                <button id="blog-btn"> Read More.</button>
+              </div>
+              </body>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="images/b2.jpg" alt="">
+              <div class="card-body">
+                <h3>Lorem, ipsum dolor</h3>
+                <h5>Admin / as of 2022</h5>
+                <p> Frshgrnd takes a different approach from the blogs above. Coffee fanatic, Aaron Frey is on a worldwide hunt for the best coffee. He has explored countries in Asia, Europe, and Latin America, and several states in the US.
+
+                  Here, Aaron doesnt just learn about coffee, but the places and cultures where each of them originates from. He also cleverly recommends coffee shops on a nicely displayed world map, along with a grading scale. Aarons goal is to be able to find that best cup of coffee and share it with all of us.</p>
+                <button id="blog-btn"> Read More.</button>
+              </div>
+              </body>
+            </div>
+
+          </div>
+          <div class="col-md-4 py-3 py-md-0">
+            <div class="card">
+              <img src="images/b3.jpg" alt="">
+              <div class="card-body">
+                <h3>Lorem, ipsum dolor</h3>
+                <h5>Admin / as of 2022</h5>
+                <p> After working in coffee shops around the world, Mark at Bean Ground now finds himself testing and experimenting with coffee at home. Learn how to brew coffee in the comfort of your own home by following the brew guides that Mark has put together. He also reviews some pretty awesome coffee equipment. </p>
+                <button id="blog-btn"> Read More.</button>
+              </div>
+              </body>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- blogs end-->
