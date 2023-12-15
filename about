@@ -1,0 +1,21 @@
+<section id="about">
+      <div class="container">
+        <div class="heading">About <span>Us</span></div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <img src="./images/about.webp" alt="">
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <h3>What makes our Coffee Special?</h3>
+            <p> Our Coffee may be special due to factors like its origin, roasting process, bean quality, brewing method, freshness, blend or single origin, certifications, specialty designation, unique processing methods, and cultural or artisanal aspects. Each of these contributes to the distinctive flavor and character of the coffee.
+              <br><br> Exceptional Bean Quality:
+              Our coffee stands out due to the meticulous selection of premium beans, sourced from renowned regions for their distinctive flavors.
+            </p>
+            <button id="about-btn"> Learn More.</button>
+          </div>
+        </div>
+      <div>
+    </section>
