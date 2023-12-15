@@ -1,0 +1,64 @@
+ <!-- product section start -->
+    <section id="product">
+      <div class="container">
+        <div class="heading4">Products</div>
+      </div>
+
+      <div class="container" id="container">
+        <div class="col-md-3 py-3 py-3">
+          <div class="card">
+            <img src="./images/arabica coffee.jpg" alt="">
+            <div class="card-body">
+              <h3>Arabic Coffee</h3>
+              <p>php 150 <strike>php 200</strike> <span class="fa-solid fa-cart-shopping "></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-3">
+          <div class="card">
+            <img src="./images/cappuccino coffee.webp" alt="">
+            <div class="card-body">
+              <h3>Cappuccino Coffee</h3>
+              <p>php 150 <strike>php 200</strike> <span class="fa-solid fa-cart-shopping "></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-3">
+          <div class="card">
+            <img src="./images/Black Coffee.jpg" alt="">
+            <div class="card-body">
+              <h3>Black Coffee</h3>
+              <p>php 189 <strike>php 260</strike> <span class="fa-solid fa-cart-shopping "></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-3">
+          <div class="card">
+            <img src="./images/decaf coffee.jpg" alt="">
+            <div class="card-body">
+              <h3>Decaf Coffee</h3>
+              <p>php 150 <strike>php 200</strike> <span class="fa-solid fa-cart-shopping "></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-3">
+          <div class="card">
+            <img src="./images/espresso coffee.webp" alt="">
+            <div class="card-body">
+              <h3>Espresso Coffee</h3>
+              <p>php 159 <strike>php 250</strike> <span class="fa-solid fa-cart-shopping "></span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 py-3 py-3">
+          <div class="card">
+            <img src="./images/robusta coffee.webp" alt="">
+            <div class="card-body">
+              <h3>Robusta Coffee</h3>
+              <p>php 250 <strike>php 300</strike> <span class="fa-solid fa-cart-shopping "></span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- product section end -->
