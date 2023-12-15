@@ -1,0 +1,51 @@
+    <!-- events section start -->
+<section id="events">
+  <div class="container">
+    <div class="heading8">Upcoming <span>Event</span></div>
+
+    <div class="row">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="images/e1.jpg" alt="Event 1">
+          <div class="card-body">
+            <h3>Grand Opening</h3>
+            <p>Date: January 15, 2024</p>
+            <p>Time: 10:00 AM - 5:00 PM</p>
+            <p>Location: Deja Brew Coffee Shop</p>
+            <p>Come join us for the grand opening of our new coffee shop! Free coffee samples and live music.</p>
+            <button class="event-btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="images/e2.jpg" alt="Event 2">
+          <div class="card-body">
+            <h3>Coffee Tasting Workshop</h3>
+            <p>Date: February 5, 2024</p>
+            <p>Time: 2:00 PM - 4:00 PM</p>
+            <p>Location: Deja Brew Coffee Shop</p>
+            <p>Join us for an exclusive coffee tasting workshop. Learn about different coffee varieties and brewing techniques.</p>
+            <button class="event-btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="images/e3.jpg" alt="Event 3">
+          <div class="card-body">
+            <h3>Live Music Night</h3>
+            <p>Date: March 10, 2024</p>
+            <p>Time: 7:00 PM - 10:00 PM</p>
+            <p>Location: Deja Brew Coffee Shop</p>
+            <p>Enjoy a relaxing evening with live music performances. Special coffee blends and desserts available.</p>
+            <button class="event-btn">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- events section end -->
