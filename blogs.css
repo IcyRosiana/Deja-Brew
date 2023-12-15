@@ -1,0 +1,28 @@
+/* blog start */
+#blog{
+    word-wrap: 100%;
+}
+#blog .heading7{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+#blog .heading7 span{
+    color: #b2744c;
+}
+#blog .container{
+    margin-top: 60px;
+}
+#blogs h5{
+    color: #b2744c;
+}
+#blog-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    color: white;
+    background: #b2744c;
+    cursor: pointer;
+}
+/* blog end */
