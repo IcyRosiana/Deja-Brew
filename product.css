@@ -1,0 +1,30 @@
+/* product section start*/
+#product{
+    width: 100%;
+    margin-top: 60px;
+}
+.heading4{
+    text-align: center;
+    color: #b2744c;
+    font-size: 30px;
+    padding-top: 70px;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+}
+#container3{
+    margin-top: 30px;
+}
+#product h3{
+    text-align: center;
+    color: #b2744c;
+    font-size: 23px;
+}
+#product p{
+    color: #b2744c;
+    padding-top: 10px;
+}
+#product p span{
+    float: right;
+    cursor: pointer;
+}
+/* product section end*/
