@@ -1,0 +1,23 @@
+  <!-- footer start -->
+<footer>
+  <div class="footer-logo">
+    <img src="./images/logo.png" alt="">
+  </div>
+
+  <div class="social-links text-center">
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-facebook"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-youtube"></i>
+    <i class="fab fa-pinterest-p"></i>
+  </div>
+
+  <div class="credits text-center">
+    Designed By <a href="#"><span>SA Coding</span></a>
+  </div>
+
+  <div class="copyright text-center">
+     Copyright <strong><span>Coffee Shop</span></strong>. All Rights Reserved.
+  </div>
+</footer>
+<!-- footer end -->
