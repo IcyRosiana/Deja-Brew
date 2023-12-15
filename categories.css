@@ -1,0 +1,30 @@
+/* top cards start */
+#top-cards{
+    width: 100%;
+    /*height: 60vh;*/
+    background: #f7f5f2;
+}
+.heading2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading2 span{
+    color: #b2744c;
+}
+#top-cards .container{
+    margin-top: 30px;
+}
+#top-cards .card{
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#top-cards .card img{
+    border-radius: 10px;
+}
+#top-cards .card:hover{
+    transform: translateY(-10px)    ;
+}
+/* top cards end */
