@@ -1,0 +1,65 @@
+/* Events Section Styles */
+#events {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .heading8 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+#events .heading8 span{
+    color: #b2744c;
+}
+  .card {
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-body h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .card-body p {
+    font-size: 14px;
+    color: black;
+    margin: 10px 0;
+  }
+  
+  .event-btn {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #b2744c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .event-btn:hover {
+    background-color: #b2744c;
+  }
+  
+/* events end */
