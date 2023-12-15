@@ -1,0 +1,597 @@
+/*navbar :start*/
+#navbar{
+    background-color: #b2744c;
+}
+#logo img{
+    border: 10px;
+    width: 160px;
+    margin-left: 40px;
+}
+.navbar-nav{
+    margin-left: 50px;
+}
+.nav-item .nav-link{
+    color: black;
+    margin-left: 10px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+.nav-item .nav-link:hover{
+    background:#f7f5f2;
+    border-radius: 5px;
+    color: black;
+}
+#navbar form button{
+    background: black;
+    color: white;
+    border: 1px solid white;
+}
+/*navbar :end*/
+
+
+
+
+
+/* home section start */
+#home {
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./images/bcgrnd.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 88%;
+}
+
+#home .content {
+    padding-top: 210px;
+    margin-left: 56px;
+}
+
+#home .content h3 {
+    font-size: 50px;
+    color: white;
+}
+
+#home .content p {
+    margin-top: 10px;
+    color: white;
+}
+
+#btn {
+    width: 150px;
+    height: 36px;
+    margin-top: 20px;
+    background: white;
+    border-radius: 5px;
+    font-weight: bold;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+#btn:hover {
+    background: #b2744c;
+    color: white;
+}
+/* home section end */
+
+
+
+
+
+
+
+/* about section start */
+#about{
+    width: 100%;
+    height: 100vh;
+}
+#about .container{
+    padding-top: 70px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading span{
+    color: #b2744c;
+}
+#about .card{
+    border-radius: 10px;
+}
+#about .card img{
+    border-radius: 10px;
+}
+#about-btn{
+    width: 200px;
+    height: 36px;
+    background: transparent;
+    border: 2px solid #b2744c;
+    color: #b2744c;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#about-btn:hover{
+    background-color: #b2744c;
+    color: white;
+}
+@media screen and (max-width:982px){
+    #about p{
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:766px){
+    #about p{
+        font-size: 15px;
+    }
+    #about{
+        height: 120vh;
+    }
+}
+/* about section end */
+
+
+
+
+
+
+
+
+/* top cards start */
+#top-cards{
+    width: 100%;
+    /*height: 60vh;*/
+    background: #f7f5f2;
+}
+.heading2{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.heading2 span{
+    color: #b2744c;
+}
+#top-cards .container{
+    margin-top: 30px;
+}
+#top-cards .card{
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#top-cards .card img{
+    border-radius: 10px;
+}
+#top-cards .card:hover{
+    transform: translateY(-10px)    ;
+}
+/* top cards end */
+
+
+
+
+
+
+
+
+/* menu start */
+#menu{
+    width: 100%;
+    margin-top: 60px;
+}
+.heading3{
+    text-align: center;
+    font-size: 30px;
+    color: #b2744c;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+}
+#container2{
+    margin-top: 30px;
+}
+#menu .card{
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.star {
+    color: #b2744c;
+}
+#menu h3{
+    text-align: center;
+    color: #b2744c;
+    margin-top: 10px;
+    font-size: 25px;
+}
+#menu p{
+    font-size: 16px;
+    color: #b2744c;
+    padding-top: 10px;
+}
+#menu p span{
+    float: right;
+    cursor: pointer;
+}
+/* menu end */
+
+
+
+
+
+
+
+/* product section start*/
+#product{
+    width: 100%;
+    margin-top: 60px;
+}
+.heading4{
+    text-align: center;
+    color: #b2744c;
+    font-size: 30px;
+    padding-top: 70px;
+    font-weight: bold;
+    border-bottom: 2px solid #b2744c;
+}
+#container3{
+    margin-top: 30px;
+}
+#product h3{
+    text-align: center;
+    color: #b2744c;
+    font-size: 23px;
+}
+#product p{
+    color: #b2744c;
+    padding-top: 10px;
+}
+#product p span{
+    float: right;
+    cursor: pointer;
+}
+/* product section end*/
+
+
+
+
+
+
+
+
+/* our gallary start */
+#gallary{
+    width: 80%;
+}
+.heading5{
+    text-align: center;
+    color: black;
+    margin-top: 60px;
+    font-size: 30px;
+    font-weight: bold;
+}
+#gallary .heading5 span{
+    color: #b2744c;
+}
+#gallary .card{
+    border-radius: 10px;
+    cursor: pointer;
+}
+#gallary .card img{
+    border-radius: 10px;
+}
+/* our gallary end */
+
+
+
+
+/* Events Section Styles */
+#events {
+    padding: 60px 0;
+    background-color: #f8f9fa;
+  }
+  
+  .heading8 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+#events .heading8 span{
+    color: #b2744c;
+}
+  .card {
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #e2e2e2;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-body h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .card-body p {
+    font-size: 14px;
+    color: black;
+    margin: 10px 0;
+  }
+  
+  .event-btn {
+    display: block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #b2744c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .event-btn:hover {
+    background-color: #b2744c;
+  }
+  
+/* events end */
+
+
+
+/* contact start */
+#contact{
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+}
+#contact .container{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(90deg, white 80%, #b2744c 20%);
+}
+.heading6{
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+#contact .heading span{
+    color: #b2744c;
+}
+#contact p{
+        font-weight: bold;
+        font-size: 13px;
+        color: black;
+}
+#contact input{
+    width: 360px;
+    border: none;
+    border-bottom: 1px solid #b2744c;
+}
+#contact-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    background: #b2744c;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#col{
+    width: 40%;
+    height: 56vh;
+    background: black;
+    margin-top: 78px;
+}
+#contact h1{
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#contact #col p{
+    font-size: 15px;
+    color: white;
+    margin-left: 13px;
+    margin-top: 30px;
+}
+@media screen and (max-width:766px){
+    #contact .coontainer{
+        background: white;
+    }
+    #col{
+        width: 100px;
+        background: #b2744c;
+    }
+    #contact{
+        height: 150vh;
+    }
+}
+@media screen and (max-width:400vh){
+    #contact input{
+        width: 250px;
+    }
+}
+/* contact end */
+
+
+
+
+
+/* blog start */
+#blog{
+    word-wrap: 100%;
+}
+#blog .heading7{
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+#blog .heading7 span{
+    color: #b2744c;
+}
+#blog .container{
+    margin-top: 60px;
+}
+#blogs h5{
+    color: #b2744c;
+}
+#blog-btn{
+    width: 200px;
+    height: 36px;
+    border: none;
+    color: white;
+    background: #b2744c;
+    cursor: pointer;
+}
+/* blog end */
+
+
+
+
+
+/* Reviews Section Styles start */
+#reviews {
+    padding: 60px 0;
+    background-color: #ffffff;
+  }
+  
+  .heading9 {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+#reviews .heading9 span{
+    color: #b2744c;
+}
+  .review-card {
+    border: 1px solid #e2e2e2;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .review-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .user-photo {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .user-photo img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  
+  .review-content {
+    padding: 20px;
+  }
+  
+  .review-content h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .star-rating {
+    color: #ffc107;
+    margin-bottom: 10px;
+  }
+  
+  .star-rating span {
+    font-size: 18px;
+  }
+  
+  .review-content p {
+    font-size: 14px;
+    color: black;
+    margin: 10px 0;
+  }
+
+  
+  /* Reviews Section Styles end */
+
+
+
+
+
+
+
+/* footer start */
+#footer{
+    width: 100%;
+    background: #b2744c;
+    margin-top: 50px;
+}
+.footer-logo {
+    text-align: center;
+}
+.footer-logo img{
+    width: 180px;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    display: inline-block; 
+.social-links i{
+    font-size: 17px;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding: 10px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.credits{
+    color: white;
+    margin-top: 20px;
+    text-shadow: 0px 0px 1px black;
+}
+.credits a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+#credits a span{
+    color: black;
+}
+.copyright span{
+    color: black;
+}
+/* footer end */
+
+
+html{
+    scroll-behavior: smooth;
+}
+.arrow{
+    position: fixed;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-align: center;
+    line-height: 50px;
+}
